@@ -1,0 +1,65 @@
+/* Turn your header element into a splash page that takes up 100vw and 100vh. (Users should be able to scroll down to see the rest of your content.)
+All headings should be centered.
+Pick two fonts from Google Fonts. Apply one of them to all the heading elements and the other to all non-heading text.
+Your name should have a font size of 2em.
+The <aside> should be 35vw wide.
+The entire page should have a background color of #494949
+All text should be #f4c20c.
+The text in your footer should be centered. */
+header {
+width: 100vw;
+height: 100vh
+}
+h1 {
+    text-align: center;
+    font-family: Impact;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    font-display: Impact;
+}
+
+h3 {
+    text-align: center;
+    font-display: Impact;
+}
+
+aside {
+    width: 35vw;
+}
+
+body {
+    background-color: #494949;
+    color: #f4c20c;
+}
+
+article {
+margin-top: 2em;
+}
+
+footer {
+    text-align: center;
+    padding-top: 15vh;
+    height: 20vh;
+}
+/*  div should be 30vw wide with 4rem of padding and should be centered both vertically and horizontally inside the header element. (Hint: flexbox is great for centering!)
+Use flexbox to create a two-column layout for the page content:
+The left-hand column should be your bio aside element.
+The right-hand column should contain your tech stack section and your work experience section. These sections should be stacked on top of each other.
+Each column should have a padding of 1rem.
+You will need to add new elements to your HTML to make flexbox work correctly.
+Each article element in your work experience section should have a top margin of 2em.
+Your footer element should have a top padding of 15vh and a height of 20vh. */
+.heading {
+width: 30vw;
+padding: 4rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 3vw;
+    flex-wrap: wrap;
+}
